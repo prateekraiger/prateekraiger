@@ -1,7 +1,7 @@
 <br clear="both">
 
 <div align="center">
-  <img height="350" src="https://th.bing.com/th/id/OIP.yPgsKiVeynqBWrOq-4QxRgAAAA?rs=1&pid=ImgDetMain"  />
+  <img height="350" src="https://i.pinimg.com/originals/54/cf/ca/54cfca7c9b367baf0b0ff7f4784c6977.jpg"  />
 </div>
 
 ###
@@ -80,10 +80,6 @@
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=prateekraiger&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
 </div>
-
-###
-
-<img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/output/snake.svg" alt="Snake animation" />
 
 ###
 
