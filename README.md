@@ -10,7 +10,7 @@
 
 - 💪🏼 Working on [Leetcode Ques](https://github.com/prateekraiger/LeetCode)
 
-- 🌱 I’m currently learning **Reactjs & Nextjs**
+- 🌱 I’m currently learning **Django & Nodejs**
 
 - 💬 Ask me about **Java or Python**
 
