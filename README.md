@@ -1,6 +1,6 @@
 
 
-![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=Prateek%20Raiger%20||%20DSA%20||%20Debugging%20||%20%20Development%20||&text2=💻%20Java%20%20Python%20Coder%20|%20DSA%20Enthusiast%20|%20Debugging%20&%20Development%20Pro%20🚀%20A%20Passionate%20Coder,Developer%20and%20Debugger&width=900&height=400)
+![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=Prateek%20||%20DSA%20||%20Debugging%20||%20%20Development%20||&text2=💻%20Java%20%20Python%20Coder%20|%20DSA%20Enthusiast%20|%20Debugging%20&%20Development%20Pro%20🚀%20A%20Passionate%20Coder,Developer%20and%20Debugger&width=900&height=400)
 
 
 
