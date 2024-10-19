@@ -8,7 +8,7 @@
 
 
 
-- 💪🏼 Working on [CodeFit](https://github.com/prateekraiger/LeetCode](https://github.com/prateekraiger/CodeFit-gym-website)
+- 💪🏼 Working on [CodeFit](https://github.com/prateekraiger/CodeFit-gym-website)
 
 - 🌱 I’m currently learning **Reactjs & NodeJs**
 
