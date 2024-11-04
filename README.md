@@ -15,6 +15,12 @@
  💬 Ask me about **Java or Python**
 
  📫 How to reach me **prateekraiger098@gmail.com**
+ <div align="center">
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+</div>
 
 <br/>
 <h3 align="center">Connect with me:</h3> <p align="center"> <a href="https://github.com/prateekraiger" target="blank"><img align="center" src=https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg alt="profile-radme-generator" height="30" width="40" /></a> <a href="https://linkedin.com/in/pratik-r1104" target="blank"><img align="center" src=https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg alt="profile-radme-generator" height="30" width="40" /></a> <a href="https://x.com/mrpratik753" target="blank"><img align="center" src=https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg alt="profile-radme-generator" height="30" width="40" /></a> <a href="https://www.leetcode.com/prateekraiger" target="blank"><img align="center" src=https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg alt="profile-radme-generator" height="30" width="40" /></a> <a href="https://auth.geeksforgeeks.org/user/prateekraiger" target="blank"><img align="center" src=https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg alt="profile-radme-generator" height="30" width="40" /></a> </p>
@@ -65,4 +71,8 @@
     </a>
   </div>
 </div>
+<br/>
+<hr/>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=500&duration=3000&pause=1000&width=710&height=60&lines=Thanks+for+exploring+my+profile!;+Let's+connect+and+build+something+amazing+together.+Happy+coding!+%F0%9F%92%BB%E2%9C%A8" alt="Typing SVG" /></a>
 
