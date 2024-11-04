@@ -1,7 +1,7 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=prateekraiger.prateekraiger" />
 
  <h1 align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=600&size=30&duration=3000&pause=500&center=true&width=440&height=60&lines=Hii+There;I'm+Prateek+Raiger!" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=600&size=30&duration=3000&pause=500&center=true&width=440&height=60&lines=Hii+There🖐️;I'm+Prateek+Raiger!" alt="Typing SVG" /></a>
  </h1>
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&duration=1000&pause=2000&color=80F799&repeat=false&width=950&height=45&lines=Exploring+the+endless+possibilities+of+web+development%2C+creating+solutions+that+make+a+difference." alt="Typing SVG" /></a>
 <br/>
