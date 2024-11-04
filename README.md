@@ -7,3 +7,16 @@
 <h3 align="center">A passionate software developer from India</h3>
 
 <br/>
+<div align="center">
+About Me:
+
+- 💪🏼 Working on [CodeFit](https://github.com/prateekraiger/CodeFit-gym-website)
+
+- 🌱 I’m currently learning **Reactjs & NodeJs**
+
+- 💬 Ask me about **Java or Python**
+
+- 📫 How to reach me **prateekraiger098@gmail.com**
+
+</div>
+<br/>
