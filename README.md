@@ -3,7 +3,7 @@
  <h1 align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=600&size=30&duration=3000&pause=500&center=true&width=440&height=60&lines=Hii+There;I'm+Prateek+Raiger!" alt="Typing SVG" /></a>
  </h1>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=700&duration=1000&pause=2000&color=80F799&repeat=false&width=1000&lines=%22Development+enthusiast+with+a+keen+eye+for+debugging%2C+crafting+efficient+algorithms+and+data+structures+to+drive+innovation.%22" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&duration=1000&pause=2000&color=80F799&repeat=false&width=750&height=40&lines=Crafting+innovative+solutions+through+efficient+debugging+and+data+structures" alt="Typing SVG" /></a>
 <br/>
 <div align="center">
  <h3 align="center">About Me:</h3>
