@@ -51,5 +51,11 @@
 <br/>
 
 <div align="center">
- <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=prateekraiger&count_private=true&theme=github-dark-blue&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&card_width=390" alt="GitHub Streak" /></a>
+
+![](https://github-readme-stats.vercel.app/api?username=prateekraiger&theme=dark&hide_border=false&include_all_commits=false&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=prateekraiger&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=prateekraiger&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
+ 
 </div>
+
+
