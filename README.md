@@ -48,14 +48,21 @@
 <hr/>
 
 <h2 align="center"> 📊 Stats 📈 </h2>
-<br/>
-
-<div align="center">
-
-![](https://github-readme-stats.vercel.app/api?username=prateekraiger&theme=dark&hide_border=false&include_all_commits=false&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=prateekraiger&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=prateekraiger&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
- 
+<br>
+<div align=center>
+  <div align=center>
+    <a href="https://github.com/prateekraiger/github-readme-stats">
+      <img width=390 align="center" src="https://github-readme-stats.vercel.app/api?username=prateekraiger&theme=dark&hide_border=false&include_all_commits=false&count_private=true" />
+    </a>
+    <a href="https://github.com/prateekraiger/github-readme-streak-stats">
+      <img width=390 align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=prateekraiger&theme=dark&hide_border=false" />
+    </a>
+  </div>
+  <br>
+  <div align=center>
+    <a href="https://github.com/prateekraiger/github-readme-stats">
+      <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prateekraiger&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact" />
+    </a>
+  </div>
 </div>
-
 
