@@ -8,7 +8,8 @@
 <br/>
 <div align="center">
  <h3 align="center">About Me:</h3>
- 💪🏼 Working on [CodeFit](https://github.com/prateekraiger/CodeFit-gym-website)
+ 
+ 💪🏼 Working on ![CodeFit](https://github.com/prateekraiger/CodeFit-gym-website)
 
  🌱 I’m currently learning **Reactjs & NodeJs**
 
