@@ -60,7 +60,7 @@
 <div align=center>
   <div align=center>
     <a href="https://github.com/prateekraiger/github-readme-stats">
-      <img width=390 align="center" src="https://github-readme-stats.vercel.app/api?username=prateekraiger&theme=dark&hide_border=false&include_all_commits=false&count_private=true" />
+      <img width=350 align="center" src="https://github-readme-stats.vercel.app/api?username=prateekraiger&theme=dark&hide_border=false&include_all_commits=false&count_private=true" />
     </a>
     <a href="https://github.com/prateekraiger/github-readme-streak-stats">
       <img width=390 align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=prateekraiger&theme=dark&hide_border=false" />
