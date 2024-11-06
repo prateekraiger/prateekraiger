@@ -45,7 +45,7 @@
 <hr/>
 
 <div align="center">
-  <h2>💻 My Contributions 🌟</h2>
+  <h2>Watch Snake Eating My Contributions 🌟</h2>
   <br>
  
 ![snake gif](https://github.com/prateekraiger/prateekraiger/blob/output/github-contribution-grid-snake.svg)
