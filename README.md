@@ -17,10 +17,16 @@
  💬 Ask me about **Java or Python**
 
  📫 How to reach me **prateekraiger098@gmail.com**
- [![Spotify](https://spotify-github-readme.vercel.app/api/spotify)](https://open.spotify.com/collection/tracks)
+
  <div align="center">
 
 ### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+</div>
+ <div align="center">
+
+### Spotify Track I am Listening
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 </div>
@@ -58,20 +64,19 @@
 
 <h2 align="center"> 📊 Stats 📈 </h2>
 <br>
+
 <div align=center>
   <div align=center>
-    <a href="https://github.com/prateekraiger/github-readme-stats">
-      <img width=360 align="center" src="https://github-readme-stats.vercel.app/api?username=prateekraiger&theme=dark&hide_border=false&include_all_commits=false&count_private=true" />
-    </a>
-    <a href="https://github.com/prateekraiger/github-readme-streak-stats">
-      <img width=390 align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=prateekraiger&theme=dark&hide_border=false" />
-    </a>
+<a href="https://github.com/KasRoudra/github-stats-card" alt="github-stats-card">
+ <img src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true"/></a>
+   
+
   </div>
   <br>
-  <div align=center>
-    <a href="https://github.com/prateekraiger/github-readme-stats">
-      <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prateekraiger&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact" />
-    </a>
+ 
+<a href="https://github.com/KasRoudra/github-stats-card" alt="github-stats-card"><img src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true"/></a>
+&
+   
   </div>
 </div>
 <br/>
