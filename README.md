@@ -32,7 +32,7 @@
   
   <a href="https://GHost0011.pythonanywhere.com/link">
   <img
-    src="https://GHost0011.pythonanywhere.com"
+    src="https://GHost0011.pythonanywhere.com?spin=true&scan=true&eq_color=rainbow&theme=dark"
     alt="Current Spotify Song"
   />
 </a>
