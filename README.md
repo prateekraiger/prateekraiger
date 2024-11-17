@@ -29,7 +29,7 @@
 
 <h2 align="center">🎧 Spotify Track I’m Listening</h2>
 <div align="center">
-  [![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/omnitenebris)
+  [![Spotify](https://spotify-card-puce.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/31krsjwznymlovmlk7cy2rv3nyry)
 </div>
 
 
