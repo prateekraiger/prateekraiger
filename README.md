@@ -1,7 +1,7 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=prateekraiger.prateekraiger" />
 
 <h1 align="center">
-  <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=600&size=30&duration=3000&pause=500&center=true&width=440&height=60&lines=Hii+There🖐️;I'm+Prateek+Raiger!" alt="Typing SVG" /></a>
+  <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=600&size=30&duration=3000&pause=500&center=true&width=440&height=60&lines=Hi+There!+👋;I'm+Prateek+Raiger!" alt="Typing SVG" /></a>
 </h1>
 
 <div align="center">
@@ -20,6 +20,37 @@
 
 <hr>
 
+<h2 align="center">🚀 Languages • Frameworks • Tools 🛠️</h2>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,java,python,git,github,vscode&theme=dark" alt="Skills 1" /><br><br>
+  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,ts,react,nodejs,express,mongodb,mysql&theme=dark" alt="Skills 2" />
+</div>
+
+<hr>
+
+<h2 align="center">📊 GitHub Stats</h2>
+<div align="center">
+  <img 
+    src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
+    alt="GitHub Stats" 
+    style="max-width: 400px;"
+  />
+  <img 
+    src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
+    alt="Language Stats" 
+    style="max-width: 400px;"
+  />
+</div>
+
+<hr>
+
+<h2 align="center">💻 Coding Profiles</h2>
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/prateekraiger?theme=radical&font=Port%20Lligat%20Slab" alt="LeetCode Stats" />
+</div>
+
+<hr>
+
 <h2 align="center">✍️ Random Dev Quote</h2>
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
@@ -27,18 +58,13 @@
 
 <hr>
 
-<h2 align="center">🎧 Spotify Track I’m Listening</h2>
+<h2 align="center">🎧 Spotify Currently Playing</h2>
 <div align="center">
     <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31krsjwznymlovmlk7cy2rv3nyry&redirect=true">
         <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31krsjwznymlovmlk7cy2rv3nyry&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true" 
         alt="Spotify GitHub Profile">
     </a>
-
-
-###
 </div>
-
-  
 
 <hr>
 
@@ -53,45 +79,17 @@
 
 <hr>
 
-<h2 align="center">🚀 Languages • Frameworks • Tools 🛠️</h2>
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,java,python,git,github,vscode&theme=dark" alt="Skills 1" /><br><br>
-  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,ts,react,nodejs,express,mongodb,mysql&theme=dark" alt="Skills 2" />
-</div>
-
-<hr>
-
-<h2 align="center">💻 My Coding Profiles</h2>
-<div align="center">
-  <img src="https://leetcard.jacoblin.cool/prateekraiger?theme=radical&font=Port%20Lligat%20Slab" alt="LeetCode Stats" />
-</div>
-
-<hr>
-
-<h2 align="center">🐍 Snake Eating My Contributions 🐍</h2>
+<h2 align="center">🐍 Snake Eating Contributions</h2>
 <div align="center">
   <img src="https://github.com/prateekraiger/prateekraiger/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </div>
 
 <hr>
 
-<h2 align="center">📊 GitHub Stats</h2>
-<div align="center">
-  <img 
-    src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
-    alt="Language Stats" 
-    style="max-width: 400px;"
-  />
-    <img align="left"
-    src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
-    alt="GitHub Stats" 
-    style="max-width: 400px;"
-    
-  />
-</div>
-
-<hr>
-
 <div align="center">
   <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=500&duration=3000&pause=1000&width=710&height=60&lines=Thanks+for+exploring+my+profile!;+Let's+connect+and+build+something+amazing+together.+Happy+coding!+%F0%9F%92%BB%E2%9C%A8" alt="Thank You" /></a>
+</div>
+
+<div align="center">
+  <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=500&duration=3000&pause=1000&width=710&height=60&lines=This+is+a+random+line+just+for+fun!+%F0%9F%A4%93;Or+is+it+really+random%3F+%3F" alt="Random Line" /></a>
 </div>
