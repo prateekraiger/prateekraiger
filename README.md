@@ -1,10 +1,10 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=prateekraiger.prateekraiger" />
 
  <h1 align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=600&size=30&duration=3000&pause=500&center=true&width=440&height=60&lines=Hii+There🖐️;I'm+Prateek+Raiger!" alt="Typing SVG" /></a>
+<a href="#"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=600&size=30&duration=3000&pause=500&center=true&width=440&height=60&lines=Hii+There🖐️;I'm+Prateek+Raiger!" alt="Typing SVG" /></a>
  </h1>
  <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&duration=1000&pause=2000&color=80F799&repeat=false&width=950&height=45&lines=Exploring+the+endless+possibilities+of+web+development%2C+creating+solutions+that+make+a+difference." alt="Typing SVG" /></a>
+<a href="#"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&duration=1000&pause=2000&color=80F799&repeat=false&width=950&height=45&lines=Exploring+the+endless+possibilities+of+web+development%2C+creating+solutions+that+make+a+difference." alt="Typing SVG" /></a>
  </div>
 <br/>
 <div align="center">
@@ -42,7 +42,7 @@
 <h2 align="center">🚀 Languages • Frameworks • Tools 🛠️</h2>
 <br/>
 <div align="center">
-  <a href="https://skillicons.dev">
+  <a href="#">
     <img src="https://skillicons.dev/icons?i=cpp,java,python,git,github,vscode&theme=dark" /> <br/>
     <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,ts,react,nodejs,express,mongodb,mysql&theme=dark" />
   </a>
@@ -83,5 +83,5 @@
 <hr/>
 
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=500&duration=3000&pause=1000&width=710&height=60&lines=Thanks+for+exploring+my+profile!;+Let's+connect+and+build+something+amazing+together.+Happy+coding!+%F0%9F%92%BB%E2%9C%A8" alt="Typing SVG" /></a>
+<a href="#"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=500&duration=3000&pause=1000&width=710&height=60&lines=Thanks+for+exploring+my+profile!;+Let's+connect+and+build+something+amazing+together.+Happy+coding!+%F0%9F%92%BB%E2%9C%A8" alt="Typing SVG" /></a>
 </div>
