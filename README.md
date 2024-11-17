@@ -78,8 +78,8 @@
     <img 
       src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
       alt="Language Stats" 
-      width="400" 
-      height="200"
+      width="420" 
+      height="340"
     />
   </div>
 </div>
