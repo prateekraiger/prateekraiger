@@ -29,7 +29,7 @@
 <hr>
 
 <h2 align="center">📊 GitHub Stats</h2>
-<div align="center">
+<div align="left">
   <img 
     src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
     alt="GitHub Stats" 
@@ -90,5 +90,8 @@
   <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=500&duration=3000&pause=1000&width=710&height=60&lines=Thanks+for+exploring+my+profile!;+Let's+connect+and+build+something+amazing+together.+Happy+coding!+%F0%9F%92%BB%E2%9C%A8" alt="Thank You" /></a>
 </div>
 
-<hr style="border: 0; height: 2px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);">
+<div align="center">
+  <hr style="border: 0; height: 4px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); width: 100%;">
+</div>
+
 
