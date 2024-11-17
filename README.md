@@ -64,21 +64,24 @@
 </div>
 
 ---
-
 <h2 align="center">📊 GitHub Stats</h2>
 <div align="center">
-  <img 
-    src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
-    alt="GitHub Stats" 
-    width="450" 
-    height="200"
-  /><br/>
-  <img 
-    src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
-    alt="Language Stats" 
-    width="450" 
-    height="300"
-  />
+  <div style="display: inline-block; margin: 10px;">
+    <img 
+      src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
+      alt="GitHub Stats" 
+      width="400" 
+      height="200"
+    />
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img 
+      src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
+      alt="Language Stats" 
+      width="400" 
+      height="200"
+    />
+  </div>
 </div>
 
 
