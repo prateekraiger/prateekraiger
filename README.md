@@ -29,7 +29,13 @@
 
 <h2 align="center">🎧 Spotify Track I’m Listening</h2>
 <div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/view?uid=your_spotify_user_id&cover_image=true&theme=default&show_offline=false&background_color=0d1117" alt="Spotify Now Playing" />
+  
+  <a href="https://GHost0011.pythonanywhere.com/link">
+  <img
+    src="https://GHost0011.pythonanywhere.com"
+    alt="Current Spotify Song"
+  />
+</a>
 </div>
 
 <hr>
