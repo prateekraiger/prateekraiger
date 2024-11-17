@@ -30,7 +30,7 @@
 <h2 align="center">🎧 Spotify Track I’m Listening</h2>
 <div align="center">
   <a href="https://open.spotify.com/user/31krsjwznymlovmlk7cy2rv3nyry" target="_blank">
-    <img src="https://spotify-card-puce.vercel.app/api/spotify" alt="Spotify" />
+    <img src="https://spotify-card-puce.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff" alt="Spotify" />
   </a>
 </div>
 
