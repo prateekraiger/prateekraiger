@@ -67,15 +67,15 @@
 
 <div align=center>
   <div align=center>
-<a href="https://github.com/KasRoudra/github-stats-card" alt="github-stats-card">
+<a href="#" alt="github-stats-card">
  <img src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true"/></a>
    
 
   </div>
   <br>
  
-<a href="https://github.com/KasRoudra/github-stats-card" alt="github-stats-card"><img src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true"/></a>
-&
+<a href="#" alt="github-stats-card"><img src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true"/></a>
+
    
   </div>
 </div>
