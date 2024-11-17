@@ -17,6 +17,7 @@
  💬 Ask me about **Java or Python**
 
  📫 How to reach me **prateekraiger098@gmail.com**
+ [![Spotify](https://spotify-github-readme.vercel.app/api/spotify)](https://open.spotify.com/collection/tracks)
  <div align="center">
 
 ### ✍️ Random Dev Quote
