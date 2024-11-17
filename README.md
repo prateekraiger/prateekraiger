@@ -52,9 +52,7 @@
 
  <h2 align="center">My Coding Profiles</h2>
 <br/>
-<div align="center">
- ![LeetCode Stats](https://leetcard.jacoblin.cool/prateekraiger?theme=radical&font=Port%20Lligat%20Slab)
-</div>
+![LeetCode Stats](https://leetcard.jacoblin.cool/prateekraiger?theme=radical&font=Port%20Lligat%20Slab)
 
 <br/>
 <hr/>
