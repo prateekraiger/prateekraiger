@@ -29,7 +29,10 @@
 
 <h2 align="center">🎧 Spotify Track I’m Listening</h2>
 <div align="center">
-  
+[![Spotify](spotify-card-git-main-prateekraigers-projects.vercel.app
+/api/spotify)](https://open.spotify.com/user/31krsjwznymlovmlk7cy2rv3nyry)
+
+  </div>
   
 
 <hr>
