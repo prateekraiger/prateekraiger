@@ -12,10 +12,10 @@
 
 <h2 align="center">📖 About Me</h2>
 <div align="center">
-  - 💪🏼 Working on <a href="https://prateekraiger.github.io/Grilli/" target="_blank">Grilli.com</a><br><br>
-  - 🌱 Currently learning **React.js & Node.js**<br><br>
-  - 💬 Ask me about **Java or Python**<br><br>
-  - 📫 Reach me at **prateekraiger098@gmail.com**<br><br>
+   💪🏼 Working on <a href="https://prateekraiger.github.io/Grilli/" target="_blank">Grilli.com</a><br><br>
+   🌱 Currently learning **React.js & Node.js**<br><br>
+   💬 Ask me about **Java or Python**<br><br>
+   📫 Reach me at **prateekraiger098@gmail.com**<br><br>
 </div>
 
 <hr>
@@ -70,14 +70,15 @@
 <h2 align="center">📊 GitHub Stats</h2>
 <div align="center">
   <img 
-    src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
-    alt="GitHub Stats" 
-    style="max-width: 400px;"
-  />
-  <img 
     src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
     alt="Language Stats" 
     style="max-width: 400px;"
+  />
+    <img align="left"
+    src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
+    alt="GitHub Stats" 
+    style="max-width: 400px;"
+    
   />
 </div>
 
