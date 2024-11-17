@@ -90,6 +90,5 @@
   <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=500&duration=3000&pause=1000&width=710&height=60&lines=Thanks+for+exploring+my+profile!;+Let's+connect+and+build+something+amazing+together.+Happy+coding!+%F0%9F%92%BB%E2%9C%A8" alt="Thank You" /></a>
 </div>
 
-<div align="center">
-  <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=500&duration=3000&pause=1000&width=710&height=60&lines=This+is+a+random+line+just+for+fun!+%F0%9F%A4%93;Or+is+it+really+random%3F+%3F" alt="Random Line" /></a>
-</div>
+<hr style="border: 0; height: 2px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);">
+
