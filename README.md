@@ -30,13 +30,7 @@
 <h2 align="center">🎧 Spotify Track I’m Listening</h2>
 <div align="center">
   
-  <a href="https://GHost0011.pythonanywhere.com/?spin=true&scan=true&eq_color=rainbow&theme=dark">
-  <img
-    src="https://GHost0011.pythonanywhere.com/?spin=true&scan=true&eq_color=rainbow&theme=dark"
-    alt="Current Spotify Song"
-  />
-</a>
-</div>
+  
 
 <hr>
 
