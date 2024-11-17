@@ -11,10 +11,12 @@
 ---
 
 ### 📖 About Me:
-- 💪🏼 Working on [Grilli.com](https://prateekraiger.github.io/Grilli/)
-- 🌱 Currently learning **React.js & Node.js**
-- 💬 Ask me about **Java or Python**
-- 📫 Reach me at **prateekraiger098@gmail.com**
+<div align="center">
+  - 💪🏼 Working on [Grilli.com](https://prateekraiger.github.io/Grilli/)<br>
+  - 🌱 Currently learning **React.js & Node.js**<br>
+  - 💬 Ask me about **Java or Python**<br>
+  - 📫 Reach me at **prateekraiger098@gmail.com**
+</div>
 
 ---
 
@@ -34,11 +36,11 @@
 
 ### 🤝 Connect With Me:
 <div align="center">
-  <a href="https://github.com/prateekraiger" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="30" width="40" /></a>
-  <a href="https://linkedin.com/in/pratik-r1104" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-  <a href="https://x.com/mrpratik753" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" /></a>
-  <a href="https://www.leetcode.com/prateekraiger" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" /></a>
-  <a href="https://auth.geeksforgeeks.org/user/prateekraiger" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksForGeeks" height="30" width="40" /></a>
+  <a href="https://github.com/prateekraiger" target="_blank" title="GitHub Profile"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="30" width="40" /></a>
+  <a href="https://linkedin.com/in/pratik-r1104" target="_blank" title="LinkedIn"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
+  <a href="https://x.com/mrpratik753" target="_blank" title="Twitter"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" /></a>
+  <a href="https://www.leetcode.com/prateekraiger" target="_blank" title="LeetCode"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" /></a>
+  <a href="https://auth.geeksforgeeks.org/user/prateekraiger" target="_blank" title="GeeksForGeeks"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksForGeeks" height="30" width="40" /></a>
 </div>
 
 ---
@@ -64,26 +66,20 @@
 </div>
 
 ---
+
 <h2 align="center">📊 GitHub Stats</h2>
 <div align="center">
-  <div style="display: inline-block; margin: 10px;">
-    <img 
-      src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
-      alt="GitHub Stats" 
-      width="400" 
-      height="200"
-    />
-  </div>
-  <div style="display: inline-block; margin: 10px;">
-    <img 
-      src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
-      alt="Language Stats" 
-      width="420" 
-      height="340"
-    />
-  </div>
+  <img 
+    src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
+    alt="GitHub Stats" 
+    style="max-width: 400px;"
+  />
+  <img 
+    src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
+    alt="Language Stats" 
+    style="max-width: 400px;"
+  />
 </div>
-
 
 ---
 
