@@ -70,18 +70,19 @@
 
 <h2 align="center">🤝 Connect With Me</h2>
 <div align="center">
-  <a href="https://github.com/your-username" target="_blank">
+  <a href="https://github.com/prateekraiger" target="_blank">
     <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/github.svg" alt="GitHub" width="40" />
   </a>
-  <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+  <a href="www.linkedin.com/in/pratik-r1104" target="_blank">
     <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/linkedin.svg" alt="LinkedIn" width="40" />
   </a>
-  <a href="https://twitter.com/your-username" target="_blank">
+  <a href="https://x.com/mrpratik753" target="_blank">
     <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/twitter-x.svg" alt="Twitter" width="40" />
   </a>
-  <a href="https://leetcode.com/your-username" target="_blank">
+  <a href="https://pin.it/2fscvaXXp" target="_blank">
     <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/pinterest.svg" alt="LeetCode" width="40" />
   </a>
+
 
 </div>
 
