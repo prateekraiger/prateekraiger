@@ -72,7 +72,7 @@
 <div align="center">
   <a href="https://github.com/prateekraiger" target="_blank" title="GitHub Profile"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="30" width="40" /></a>
   <a href="https://linkedin.com/in/pratik-r1104" target="_blank" title="LinkedIn"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-  <a href="https://x.com/mrpratik753" target="_blank" title="X"><img src="https://img.shields.io/badge/X-black.svg?logo=X&Color=white" alt="X" height="30" width="40" /></a>
+  <a href="https://x.com/mrpratik753" target="_blank" title="X"><img src="https://img.shields.io/badge/X-black.svg?Color=white" alt="X" height="30" width="40" /></a>
   <a href="https://www.leetcode.com/prateekraiger" target="_blank" title="LeetCode"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" /></a>
   <a href="https://auth.geeksforgeeks.org/user/prateekraiger" target="_blank" title="GeeksForGeeks"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksForGeeks" height="30" width="40" /></a>
 </div>
