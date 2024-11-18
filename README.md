@@ -108,7 +108,7 @@
 
 <hr>
 
-<h2 align="center">🐍 Snake Eating Contributions</h2>
+<h2 align="center">🐍 Watch Snake Eating My Contributions 🐍</h2>
 <div align="center">
   <img src="https://github.com/prateekraiger/prateekraiger/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </div>
