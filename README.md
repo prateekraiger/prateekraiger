@@ -29,18 +29,21 @@
 <hr>
 
 <h2 align="center">📊 GitHub Stats</h2>
-<div align="left">
-  <img 
-    src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
-    alt="GitHub Stats" 
-    style="max-width: 400px;"
-  />
-  <img 
-    src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
-    alt="Language Stats" 
-    style="max-width: 400px;"
-  />
+<div align="center">
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
+    <img 
+      src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
+      alt="GitHub Stats" 
+      style="max-width: 400px; flex: 1;"
+    />
+    <img 
+      src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
+      alt="Language Stats" 
+      style="max-width: 400px; flex: 1;"
+    />
+  </div>
 </div>
+
 
 <hr>
 
@@ -73,7 +76,7 @@
   <a href="https://github.com/prateekraiger" target="_blank">
     <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/github.svg" alt="GitHub" width="40" />
   </a>
-  <a href="www.linkedin.com/in/pratik-r1104" target="_blank">
+  <a href="https://www.linkedin.com/in/pratik-r1104/" target="_blank">
     <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/linkedin.svg" alt="LinkedIn" width="40" />
   </a>
   <a href="https://x.com/mrpratik753" target="_blank">
