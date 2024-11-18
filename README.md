@@ -70,14 +70,21 @@
 
 <h2 align="center">🤝 Connect With Me</h2>
 <div align="center">
-  <a href="https://github.com/prateekraiger" target="_blank" title="GitHub Profile"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="30" width="40" /></a>
-  <a href="https://linkedin.com/in/pratik-r1104" target="_blank" title="LinkedIn"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-
- 
-<a href="https://twitter.com/mrpratik753" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/x.svg" alt="mrpratik753" height="30" width="40" /></a>
-
-  <a href="https://www.leetcode.com/prateekraiger" target="_blank" title="LeetCode"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" /></a>
-  <a href="https://auth.geeksforgeeks.org/user/prateekraiger" target="_blank" title="GeeksForGeeks"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksForGeeks" height="30" width="40" /></a>
+  <a href="https://github.com/your-username" target="_blank">
+    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/github.svg" alt="GitHub" width="40" />
+  </a>
+  <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/linkedin.svg" alt="LinkedIn" width="40" />
+  </a>
+  <a href="https://twitter.com/your-username" target="_blank">
+    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/twitter.svg" alt="Twitter" width="40" />
+  </a>
+  <a href="https://leetcode.com/your-username" target="_blank">
+    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/leetcode.svg" alt="LeetCode" width="40" />
+  </a>
+  <a href="https://auth.geeksforgeeks.org/user/your-username" target="_blank">
+    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/gfg.svg" alt="GeeksforGeeks" width="40" />
+  </a>
 </div>
 
 <hr>
