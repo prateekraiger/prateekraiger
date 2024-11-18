@@ -133,5 +133,19 @@
 </div>
 
 
-  <hr style="border: 0; height: 4px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); width: 100%;">
+//new
+
+import { GFGProfile } from "react-gfg";
+
+function App() {
+  return (
+    <div className="w-full flex justify-center items-center">
+      <GFGProfile username="prateekraiger" />
+    </div>
+  );
+}
+
+export default App;
+
+<hr style="border: 0; height: 4px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); width: 100%;">
 
