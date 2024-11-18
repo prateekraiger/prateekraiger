@@ -105,10 +105,16 @@
 
 <hr>
 
-<h2 align="center"> Contribution Activity </h2>
+<h2 align="center">🌟 Contribution Activity</h2>
 
-   [![Prateek's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=prateekraiger&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
+<p align="center">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img 
+      src="https://github-readme-activity-graph.vercel.app/graph?username=prateekraiger&theme=tokyo-night" 
+      alt="Prateek's GitHub Activity Graph"
+    />
+  </a>
+</p>
 
 <hr>
 
