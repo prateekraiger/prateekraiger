@@ -13,10 +13,11 @@
 <h2 align="center">📖 About Me</h2>
 <div align="center">
    💪🏼 Working on <a href="https://prateekraiger.github.io/Grilli/" target="_blank">Grilli.com</a><br><br>
-   🌱 Currently learning **React.js & Node.js**<br><br>
-   💬 Ask me about **Java or Python**<br><br>
-   📫 Reach me at **prateekraiger098@gmail.com**<br><br>
+   🌱 Currently learning <strong>React.js</strong> & <strong>Node.js</strong><br><br>
+   💬 Ask me about <strong>Java</strong> or <strong>Python</strong><br><br>
+   📫 Reach me at <a href="mailto:prateekraiger098@gmail.com">prateekraiger098@gmail.com</a><br><br>
 </div>
+
 
 <hr>
 
