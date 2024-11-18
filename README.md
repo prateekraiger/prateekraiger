@@ -80,11 +80,9 @@
     <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/twitter.svg" alt="Twitter" width="40" />
   </a>
   <a href="https://leetcode.com/your-username" target="_blank">
-    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/leetcode.svg" alt="LeetCode" width="40" />
+    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/pinterest.svg" alt="LeetCode" width="40" />
   </a>
-  <a href="https://auth.geeksforgeeks.org/user/your-username" target="_blank">
-    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/gfg.svg" alt="GeeksforGeeks" width="40" />
-  </a>
+
 </div>
 
 <hr>
