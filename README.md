@@ -30,8 +30,8 @@
 <hr>
 
 <h2 align="center">📊 GitHub Stats</h2>
-<div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 20px; padding: 20px;">
-  <img align="left"
+<div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; gap: 20px; padding: 20px;">
+  <img 
     src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
     alt="GitHub Stats" 
     style="max-width: 45%;"
@@ -42,7 +42,6 @@
     style="max-width: 45%;"
   />
 </div>
-
 
 
 <hr>
