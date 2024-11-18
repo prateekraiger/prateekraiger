@@ -29,20 +29,19 @@
 <hr>
 
 <h2 align="center">📊 GitHub Stats</h2>
-<div align="center">
-  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
-    <img 
-      src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
-      alt="GitHub Stats" 
-      style="max-width: 400px; flex: 1;"
-    />
-    <img 
-      src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
-      alt="Language Stats" 
-      style="max-width: 400px; flex: 1;"
-    />
-  </div>
+<div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 20px; padding: 20px;">
+  <img align="left"
+    src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
+    alt="GitHub Stats" 
+    style="max-width: 45%;"
+  />
+  <img 
+    src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
+    alt="Language Stats" 
+    style="max-width: 45%;"
+  />
 </div>
+
 
 
 <hr>
