@@ -78,24 +78,30 @@
 <hr>
 
 <h2 align="center">🤝 Connect With Me</h2>
-<div align="center">
-  <a href="https://github.com/prateekraiger" target="_blank">
-    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/github.svg" alt="GitHub" width="40" />
-  </a>
-  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> 
-  <a href="https://www.linkedin.com/in/pratik-r1104/" target="_blank">
-    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/linkedin.svg" alt="LinkedIn" width="40" />
-  </a>
-  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-  <a href="https://x.com/mrpratik753" target="_blank">
-    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/twitter-x.svg" alt="Twitter" width="40" />
-  </a>
-  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> 
-  <a href="https://pin.it/2fscvaXXp" target="_blank">
-    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/pinterest.svg" alt="Pinterest" width="40" />
-  </a>
-</div>
-
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://github.com/prateekraiger" target="_blank">
+        <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/github.svg" alt="GitHub" width="40" />
+      </a>
+    </td>
+    <td>
+      <a href="https://www.linkedin.com/in/pratik-r1104/" target="_blank">
+        <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/linkedin.svg" alt="LinkedIn" width="40" />
+      </a>
+    </td>
+    <td>
+      <a href="https://x.com/mrpratik753" target="_blank">
+        <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/twitter-x.svg" alt="Twitter" width="40" />
+      </a>
+    </td>
+    <td>
+      <a href="https://pin.it/2fscvaXXp" target="_blank">
+        <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/pinterest.svg" alt="Pinterest" width="40" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <hr>
 
