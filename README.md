@@ -75,7 +75,7 @@
  <a href="https://x.com/mrpratik753" target="_blank" title="X (formerly Twitter)">
   <img src="https://abs.twimg.com/favicons/twitter.ico" alt="Twitter" height="30" width="40" />
 </a>
-  <a href="https://www.leetcode.com/prateekraiger" target="_blank" title="LeetCode"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leetcode.svg" alt="LeetCode" height="30" width="40" /></a>
+  <a href="https://www.leetcode.com/prateekraiger" target="_blank" title="LeetCode"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" /></a>
   <a href="https://auth.geeksforgeeks.org/user/prateekraiger" target="_blank" title="GeeksForGeeks"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksForGeeks" height="30" width="40" /></a>
 </div>
 
