@@ -105,6 +105,13 @@
 
 <hr>
 
+<h2 align="center"> My Contributions </h2>
+
+   [![Prateek's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=prateekraiger&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+
+<hr>
+
 <h2 align="center">💰 Buy Me a Coffee</h2>
 <div align="center">
   <a href="https://buymeacoffee.com/prateekraiger" target="_blank">
