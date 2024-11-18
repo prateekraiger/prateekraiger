@@ -82,18 +82,20 @@
   <a href="https://github.com/prateekraiger" target="_blank">
     <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/github.svg" alt="GitHub" width="40" />
   </a>
+  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> 
   <a href="https://www.linkedin.com/in/pratik-r1104/" target="_blank">
     <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/linkedin.svg" alt="LinkedIn" width="40" />
   </a>
+  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
   <a href="https://x.com/mrpratik753" target="_blank">
     <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/twitter-x.svg" alt="Twitter" width="40" />
   </a>
+  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> 
   <a href="https://pin.it/2fscvaXXp" target="_blank">
-    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/pinterest.svg" alt="LeetCode" width="40" />
+    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/pinterest.svg" alt="Pinterest" width="40" />
   </a>
-
-
 </div>
+
 
 <hr>
 
