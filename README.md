@@ -30,18 +30,25 @@
 <hr>
 
 <h2 align="center">📊 GitHub Stats</h2>
-<div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; gap: 20px; padding: 20px;">
-  <img 
-    src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
-    alt="GitHub Stats" 
-    style="max-width: 45%;"
-  />
-  <img 
-    src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
-    alt="Language Stats" 
-    style="max-width: 45%;"
-  />
-</div>
+
+<table>
+  <tr>
+    <td>
+      <img 
+        src="https://kasroudra-stats-card.onrender.com/user?user=prateekraiger&theme=dracula&layout=compact&hide_border=false&include_all_commits=false&count_private=true" 
+        alt="GitHub Stats" 
+        style="max-width: 100%;"
+      />
+    </td>
+    <td>
+      <img 
+        src="https://kasroudra-stats-card.onrender.com/lang?user=prateekraiger&theme=tokyonight&layout=compact&type=piechart&sort=desc&hide_border=false&include_all_commits=false&count_private=true" 
+        alt="Language Stats" 
+        style="max-width: 100%;"
+      />
+    </td>
+  </tr>
+</table>
 
 
 <hr>
