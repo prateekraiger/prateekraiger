@@ -77,7 +77,7 @@
     <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/linkedin.svg" alt="LinkedIn" width="40" />
   </a>
   <a href="https://twitter.com/your-username" target="_blank">
-    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/twitter.svg" alt="Twitter" width="40" />
+    <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/twitter-x.svg" alt="Twitter" width="40" />
   </a>
   <a href="https://leetcode.com/your-username" target="_blank">
     <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/pinterest.svg" alt="LeetCode" width="40" />
