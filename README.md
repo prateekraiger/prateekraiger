@@ -72,9 +72,18 @@
 <div align="center">
   <a href="https://github.com/prateekraiger" target="_blank" title="GitHub Profile"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="30" width="40" /></a>
   <a href="https://linkedin.com/in/pratik-r1104" target="_blank" title="LinkedIn"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-  <a href="https://x.com/mrpratik753" target="_blank" title="Twitter"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" /></a>
+  <a href="https://x.com/mrpratik753" target="_blank" title="X (formerly Twitter)"><img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" alt="X" height="30" width="40" /></a>
   <a href="https://www.leetcode.com/prateekraiger" target="_blank" title="LeetCode"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" /></a>
   <a href="https://auth.geeksforgeeks.org/user/prateekraiger" target="_blank" title="GeeksForGeeks"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksForGeeks" height="30" width="40" /></a>
+</div>
+
+<hr>
+
+<h2 align="center">💰 Buy Me a Coffee</h2>
+<div align="center">
+  <a href="https://buymeacoffee.com/prateekraiger" target="_blank">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
+  </a>
 </div>
 
 <hr>
@@ -93,5 +102,3 @@
 <div align="center">
   <hr style="border: 0; height: 4px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); width: 100%;">
 </div>
-
-
