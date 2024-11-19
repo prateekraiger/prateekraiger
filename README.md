@@ -1,11 +1,21 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=prateekraiger.prateekraiger" />
 
 <h1 align="center">
-  <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=600&size=30&duration=3000&pause=500&center=true&width=440&height=60&lines=Hi+There!+👋;I'm+Prateek+Raiger!" alt="Typing SVG" /></a>
+  <a href="#">
+    <img 
+      src="https://readme-typing-svg.demolab.com?font=Righteous&weight=600&size=30&duration=3000&pause=500&center=true&width=440&height=60&lines=Hi+There!+👋;I'm+Prateek+Raiger!" 
+      alt="Typing SVG" 
+    />
+  </a>
 </h1>
 
 <div align="center">
-  <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&duration=1000&pause=2000&color=80F799&repeat=false&width=950&height=45&lines=Exploring+the+endless+possibilities+of+web+development%2C+creating+solutions+that+make+a+difference." alt="Typing SVG" /></a>
+  <a href="#">
+    <img 
+      src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&duration=1000&pause=2000&color=80F799&repeat=false&width=950&height=45&lines=Exploring+the+endless+possibilities+of+web+development%2C+creating+solutions+that+make+a+difference." 
+      alt="Typing SVG" 
+    />
+  </a>
 </div>
 
 <hr>
@@ -18,7 +28,6 @@
    📫 Reach me at <a href="mailto:prateekraiger098@gmail.com">prateekraiger098@gmail.com</a><br><br>
 </div>
 
-
 <hr>
 
 <h2 align="center">🚀 Languages • Frameworks • Tools 🛠️</h2>
@@ -30,8 +39,7 @@
 <hr>
 
 <h2 align="center">📊 GitHub Stats</h2>
-
-<table>
+<table align="center">
   <tr>
     <td>
       <img 
@@ -49,7 +57,6 @@
     </td>
   </tr>
 </table>
-
 
 <hr>
 
@@ -70,15 +77,16 @@
 <h2 align="center">🎧 Spotify Currently Playing</h2>
 <div align="center">
     <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31krsjwznymlovmlk7cy2rv3nyry&redirect=true">
-        <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31krsjwznymlovmlk7cy2rv3nyry&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true" 
-        alt="Spotify GitHub Profile">
+        <img 
+          src="https://spotify-github-profile.kittinanx.com/api/view?uid=31krsjwznymlovmlk7cy2rv3nyry&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true" 
+          alt="Spotify GitHub Profile" 
+        />
     </a>
 </div>
 
 <hr>
 
-
-<<h2 align="center">🤝 Connect With Me</h2>
+<h2 align="center">🤝 Connect With Me</h2>
 <div align="center">
   <table>
     <tr>
@@ -109,12 +117,11 @@
 <hr>
 
 <h2 align="center">🌟 Contribution Activity</h2>
-
 <p align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img 
       src="https://github-readme-activity-graph.vercel.app/graph?username=prateekraiger&theme=tokyo-night&custom_title=Pratikx%20Activity%20Graph&hide_border=true" 
-      alt="Prateek's GitHub Activity Graph"
+      alt="Prateek's GitHub Activity Graph" 
     />
   </a>
 </p>
@@ -138,9 +145,17 @@
 <hr>
 
 <div align="center">
-  <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=500&duration=3000&pause=1000&width=710&height=60&lines=Thanks+for+exploring+my+profile!;+Let's+connect+and+build+something+amazing+together.+Happy+coding!+%F0%9F%92%BB%E2%9C%A8" alt="Thank You" /></a>
+  <!-- Typing Animation -->
+  <a href="#">
+    <img 
+      src="https://readme-typing-svg.demolab.com?font=Righteous&weight=500&duration=3000&pause=1000&width=710&height=60&lines=Let's+connect+and+build+something+amazing+together.+Happy+coding!+%F0%9F%92%BB%E2%9C%A8" 
+      alt="Thank You" 
+    />
+  </a>
+
+  <!-- Compact Wave Footer -->
+  <img 
+    src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=60&section=footer&text=Thanks%20for%20exploring%20my%20profile!&fontSize=20&fontAlign=50" 
+    alt="Compact Fancy Footer" 
+  />
 </div>
-
-
-<hr style="border: 0; height: 4px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); width: 100%;">
-
