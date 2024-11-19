@@ -78,6 +78,7 @@
 <hr>
 
 <h2 align="center">🤝 Connect With Me</h2>
+<div align="center">
 <table align="center">
   <tr>
     <td>
@@ -102,6 +103,7 @@
     </td>
   </tr>
 </table>
+</div>
 
 <hr>
 
