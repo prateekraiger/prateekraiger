@@ -113,7 +113,7 @@
 <p align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img 
-      src="https://github-readme-activity-graph.vercel.app/graph?username=prateekraiger&theme=tokyo-night" 
+      src="https://github-readme-activity-graph.vercel.app/graph?username=prateekraiger&theme=tokyo-night&custom_title=Pratikx%20Activity%20Graph&hide_border=true" 
       alt="Prateek's GitHub Activity Graph"
     />
   </a>
