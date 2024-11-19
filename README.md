@@ -144,18 +144,14 @@
 
 <hr>
 
-<div align="center">
+<div align="center" style="margin-top: 20px;">
   <!-- Typing Animation -->
   <a href="#">
     <img 
-      src="https://readme-typing-svg.demolab.com?font=Righteous&weight=500&duration=3000&pause=1000&width=710&height=60&lines=Let's+connect+and+build+something+amazing+together.+Happy+coding!+%F0%9F%92%BB%E2%9C%A8" 
-      alt="Thank You" 
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=0D76A5&center=true&vCenter=true&width=800&height=50&lines=Thanks+for+exploring+my+profile!;Let's+connect+and+create+something+awesome!+🚀" 
+      alt="Thank You Animation" 
     />
   </a>
 
-  <!-- Compact Wave Footer -->
-  <img 
-    src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=60&section=footer&text=Thanks%20for%20exploring%20my%20profile!&fontSize=20&fontAlign=50" 
-    alt="Compact Fancy Footer" 
-  />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer&theme=onedark)" />
 </div>
