@@ -117,14 +117,15 @@ w<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=prateekra
 <hr>
 
 <h2 align="center">🌟 Contribution Activity</h2>
-<p align="center">
+<div align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img 
       src="https://github-readme-activity-graph.vercel.app/graph?username=prateekraiger&theme=tokyo-night&custom_title=Pratik's%20Activity%20Graph&hide_border=true" 
       alt="Prateek's GitHub Activity Graph" 
     />
   </a>
-</p>
+</div>
+
 
 <hr>
 
@@ -148,7 +149,7 @@ w<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=prateekra
   <a href="#">
     <img 
       src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=0D76A5&center=true&vCenter=true&width=800&height=50&lines=Thanks+for+exploring+my+profile!;Let's+connect+and+create+something+awesome!+🚀" 
-      alt="Thank You Animation" 
+      alt="Thank You Animation"
     />
   </a>
 
