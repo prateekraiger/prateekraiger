@@ -22,7 +22,7 @@
 
 <h2 align="center">📖 About Me</h2>
 <div align="center">
-   💪🏼 Working on <a href="https://prateekraiger.github.io/Grilli/" target="_blank">Grilli.com</a><br><br>
+   💪🏼 Working on <a href="https://grilli-50z.pages.dev/" target="_blank">Grilli.com</a><br><br>
    🌱 Currently learning <strong>React.js</strong> & <strong>Node.js</strong><br><br>
    💬 Ask me about <strong>Java</strong> or <strong>Python</strong><br><br>
    📫 Reach me at <a href="mailto:prateekraiger098@gmail.com">prateekraiger098@gmail.com</a><br><br>
