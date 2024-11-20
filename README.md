@@ -1,4 +1,4 @@
-w<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=prateekraiger.prateekraiger" />
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=prateekraiger.prateekraiger" />
 
 <h1 align="center">
   <a href="#">
