@@ -126,7 +126,6 @@
   </a>
 </div>
 
-
 <hr>
 
 <h2 align="center">💰 Buy Me a Coffee</h2>
