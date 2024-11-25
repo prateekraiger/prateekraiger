@@ -67,7 +67,7 @@
 
 <hr>
 
- <! --
+
 <h2 align="center">✍️ Random Dev Quote</h2>
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
@@ -75,7 +75,7 @@
 
 <hr>
 
---!>
+
 <h2 align="center">🎧 Spotify Currently Playing</h2>
 <div align="center">
     <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31krsjwznymlovmlk7cy2rv3nyry&redirect=true">
