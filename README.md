@@ -2,12 +2,12 @@
 
 <h1 align="center">
   <a href="#">
-    <img 
-      src="https://readme-typing-svg.demolab.com?font=Righteous&weight=600&size=30&duration=3000&pause=500&center=true&width=440&height=60&lines=Hi+There!+👋;I'm+Prateek+Raiger!" 
-      alt="Typing SVG" 
-    />
+    <img src="https://svg-banners.vercel.app/api?type=luminance&text1=Hello!%20I%27m%20Pratik%20👨‍💻&width=1000&height=200" alt="Hello! I'm Prateek Raiger 👨‍💻">
   </a>
 </h1>
+
+
+
 
 <div align="center">
   <a href="#">
