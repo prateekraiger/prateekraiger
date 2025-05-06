@@ -33,7 +33,7 @@
 <h2 align="center">🚀 Languages • Frameworks • Tools 🛠️</h2>
 <div align="center">
   <img src="https://skillicons.dev/icons?i=cpp,java,python,git,github,vscode&theme=dark" alt="Skills 1" /><br><br>
-  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,ts,react,nodejs,express,mongodb,mysql&theme=dark" alt="Skills 2" />
+  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,ts,react,nextjs,express,mongodb,mysql&theme=dark" alt="Skills 2" />
 </div>
 
 <hr>
