@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <a href="#">
-    <img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/refs/heads/output/readmebox.svg" alt="This iS Me Pratik>
+    <img src="https://raw.githubusercontent.com/prateekraiger/GfG/refs/heads/main/Hard/readmebox.svg?token=GHSAT0AAAAAADDNFO6V6POMMM4XMP5S63T42A3CPCA" alt="This iS Me Pratik>
   </a>
 </h1>
 
