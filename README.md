@@ -1,10 +1,11 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=prateekraiger.prateekraiger" />
 
-<h1 align="center">
+<p align="center">
   <a href="#">
-    <img src="https://raw.githubusercontent.com/prateekraiger/GfG/refs/heads/main/Hard/readmebox.svg?token=GHSAT0AAAAAADDNFO6V6POMMM4XMP5S63T42A3CPCA" alt="This iS Me Pratik>
+    <img src="https://raw.githubusercontent.com/prateekraiger/Voyazo-Travel-Website/refs/heads/main/assets/img/readmebox.svg" alt="This is Pratik" />
   </a>
-</h1>
+</p>
+
 
 
 
