@@ -23,7 +23,7 @@
 <h2 align="center">📖 About Me</h2>
 <div align="center">
    💪🏼 Working on <a href="https://github.com/prateekraiger/Whisprr" target="_blank">Whisprr</a><br><br>
-   🌱 Currently learning <strong>Next.js</strong> & <strong>Node.js</strong><br><br>
+   🌱 Currently learning <strong>Next.js</strong> & <strong>Postgres</strong><br><br>
    💬 Ask me about <strong>React</strong> or <strong>Python</strong> or <strong>Java</strong><br><br>
    📫 Reach me at <a href="mailto:prateekraiger098@gmail.com">prateekraiger098@gmail.com</a><br><br>
 </div>
