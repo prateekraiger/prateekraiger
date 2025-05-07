@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <a href="#">
-    <img src="[https://svg-banners.vercel.app/api?type=luminance&text1=Hello!%20I%27m%20Pratik%20👨‍💻&width=1000&height=200" alt="Hello! I'm Prateek Raiger 👨‍💻"](https://res.cloudinary.com/dk3pg4zly/image/upload/v1746603924/readmebox_jygawp.svg)>
+    <img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/refs/heads/output/readmebox.svg" alt="This iS Me Pratik>
   </a>
 </h1>
 
