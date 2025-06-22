@@ -109,7 +109,7 @@
         </a>
       </td>
       <td>
-        <a href="https://pin.it/2fscvaXXp" target="_blank">
+        <a href="https://in.pinterest.com/mr_ghost007/" target="_blank">
           <img src="https://github.com/CLorant/readme-social-icons/blob/main/medium/light/pinterest.svg" alt="Pinterest" width="40" />
         </a>
       </td>
