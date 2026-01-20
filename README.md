@@ -147,13 +147,15 @@
 
 <hr>
 
-<div align="center" style="margin-top: 20px;">
-  <a href="#">
-    <img 
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=0D76A5&center=true&vCenter=true&width=800&height=50&lines=Thanks+for+exploring+my+profile!;Let's+connect+and+create+something+awesome!+🚀" 
-      alt="Thank You Animation"
-    />
-  </a>
+<h2 align="center">Packman </h2>
+<div align="center">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/prateekraiger/prateekraiger/blob/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/prateekraiger/prateekraiger/blob/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://github.com/prateekraiger/prateekraiger/blob/output/pacman-contribution-graph.svg">
+</picture>
+</div>
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer&theme=onedark)" />
 </div>
