@@ -116,14 +116,6 @@ Reach me at <a href="mailto:prateekraiger098@gmail.com">prateekraiger098@gmail.c
 
 <br><br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/prateekraiger/prateekraiger/blob/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/prateekraiger/prateekraiger/blob/output/pacman-contribution-graph.svg">
-  <img alt="Pacman contribution graph" src="https://github.com/prateekraiger/prateekraiger/blob/output/pacman-contribution-graph.svg">
-</picture>
-
-<br><br>
-
 <a href="https://buymeacoffee.com/prateekraiger" target="_blank">
   <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
 </a>
