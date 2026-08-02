@@ -53,23 +53,23 @@ interactive destination showcases, and modern frontend architecture.
 <div align="center">
 
 <a href="https://github.com/prateekraiger" target="_blank">
-  <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/light/github.svg" alt="GitHub" width="36" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/pratik-r1104/" target="_blank">
-  <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/light/linkedin.svg" alt="LinkedIn" width="36" />
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
 <a href="https://x.com/mrpratik753" target="_blank">
-  <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/light/twitter-x.svg" alt="Twitter" width="36" />
+  <img src="https://img.shields.io/badge/Twitter%2FX-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" />
 </a>
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
 <a href="https://www.instagram.com/dev.prat1k/" target="_blank">
-  <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/light/instagram.svg" alt="Instagram" width="36" height="36" />
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
 </a>
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
 <a href="mailto:prateekraiger098@gmail.com" target="_blank">
-  <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/light/mail.svg" alt="Email" width="36" height="36" />
+  <img src="https://img.shields.io/badge/Email-prateekraiger098%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 
 </div>
@@ -81,14 +81,3 @@ interactive destination showcases, and modern frontend architecture.
 <img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/output/github-contribution-grid-snake-dark.svg" width="620" alt="Snake Animation" />
 
 </div>
-
-<img src="./hd-about-this-page.svg" width="620" alt="about this page"/>
-
-Every graphic here is generated directly inside this repository, with zero third-party<br>
-server requests or external widgets. `ascii.svg` is an animated self-typing<br>
-character matrix; section headings and data stats are rendered by<br>
-[a scheduled GitHub Action](.github/workflows/stats.yml) querying the GitHub GraphQL API daily.
-
-Animations use native SMIL embedded inside SVGs with base64 inlined [JetBrains Mono](scripts/fonts)<br>
-typography. This guarantees zero rate limits, no third-party uptime dependency,<br>
-and consistent pixel-perfect typography across all devices.
