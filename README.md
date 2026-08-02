@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="./svg/ascii.svg" width="460" alt="Pratik Raiger"/>
+<img src="./luffy_PFP.jpg" width="240" alt="Pratik Raiger" style="border-radius: 50%;" />
+
+<br><br>
 
 <img src="./svg/stats.svg" width="620" alt="Contributions in the last year"/>
 
