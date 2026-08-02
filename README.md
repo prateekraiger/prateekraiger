@@ -1,54 +1,59 @@
 <div align="center">
 
-<img src="./ascii.svg" width="460" alt="Pratik Raiger"/>
+<img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/ascii.svg" width="460" alt="Pratik Raiger"/>
 
-<img src="./stats.svg" width="620" alt="Contributions in the last year"/>
+<img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/stats.svg" width="620" alt="Contributions in the last year"/>
 
 [linkedin](https://www.linkedin.com/in/pratik-r1104/) &nbsp;·&nbsp;
 [twitter](https://x.com/mrpratik753) &nbsp;·&nbsp;
 [instagram](https://www.instagram.com/dev.prat1k/) &nbsp;·&nbsp;
-[leetcode](https://leetcode.com/prateekraiger) &nbsp;·&nbsp;
-[email](mailto:prateekraiger098@gmail.com)
+[leetcode](https://leetcode.com/prateekraiger)
 
 </div>
 
-<img src="./hd-about.svg" width="620" alt="about"/>
+<img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/hd-about.svg" width="620" alt="about"/>
 
 > Full-Stack & UI/UX Developer building high-performance web applications.<br>
 > Clean code, thoughtful design, and relentless iteration.
 
 I build fast, responsive applications and explore modern web technologies.<br>
-Currently engineering **[Sakuga_UI](https://github.com/prateekraiger/sakuga-ui)** — a modern component library built<br>
-for speed and fluid user experiences. Deepening expertise in **Next.js**, **TypeScript**,<br>
-**Java**, and scalable full-stack architecture.
+Currently engineering full-stack applications with **TypeScript**, **Next.js**,<br>
+**React**, and scalable cloud architectures.
 
-<img src="./hd-stack.svg" width="620" alt="stack"/>
+<img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/hd-stack.svg" width="620" alt="stack"/>
 
 <samp>cpp &nbsp; java &nbsp; python &nbsp; html &nbsp; css &nbsp; tailwind &nbsp; javascript &nbsp; typescript &nbsp; react &nbsp; next.js &nbsp; express &nbsp; mongodb &nbsp; mysql &nbsp; git &nbsp; github</samp>
 
-<img src="./hd-projects.svg" width="620" alt="projects"/>
+<img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/hd-projects.svg" width="620" alt="projects"/>
 
-**[Sakuga_UI](https://github.com/prateekraiger/sakuga-ui)** &nbsp;·&nbsp; <samp>react, typescript, tailwind</samp><br>
-A sleek, modern component library built for rapid UI creation,<br>
-smooth micro-animations, and seamless developer experience.
+**[royal-plaza](https://github.com/prateekraiger/royal-plaza)** &nbsp;·&nbsp; <samp>typescript, react</samp><br>
+Don't just visit. Dwell. Modern hospitality & luxury reservation web application.
 
-**[Voyazo Travel Website](https://github.com/prateekraiger/Voyazo-Travel-Website)** &nbsp;·&nbsp; <samp>javascript, html, css</samp><br>
-Feature-packed travel platform featuring responsive design,<br>
-interactive destination showcases, and modern frontend architecture.
+**[button-ui](https://github.com/prateekraiger/button-ui)** &nbsp;·&nbsp; <samp>typescript, react</samp><br>
+Interactive, highly customizable component UI library designed for fluid user experiences.
 
-<img src="./hd-stats.svg" width="620" alt="stats"/>
+**[BioCraft](https://github.com/prateekraiger/BioCraft)** &nbsp;·&nbsp; <samp>typescript, next.js</samp><br>
+Developer portfolio & bio showcase platform built for modern creators.
+
+**[buildmeCV](https://github.com/prateekraiger/buildmeCV)** &nbsp;·&nbsp; <samp>typescript, react</samp><br>
+Instant resume & CV generator tool tailored for software engineers.
+
+**[Riya](https://github.com/prateekraiger/Riya)** &nbsp;·&nbsp; <samp>typescript</samp><br>
+Feature-packed full-stack web application with responsive UI.
+
+<img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/hd-stats.svg" width="620" alt="stats"/>
 
 <div align="center">
 
-<img src="./streak.svg" width="620" alt="Current and longest streak"/>
+<img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/streak.svg" width="620" alt="Current and longest streak"/>
 
-<img src="./langs.svg" width="620" alt="Top languages by bytes and by repo"/>
+<img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/langs.svg" width="620" alt="Top languages by bytes and by repo"/>
 
-<img src="./year.svg" width="620" alt="The last year, one character per day"/>
+<img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/year.svg" width="620" alt="The last year, one character per day"/>
 
 </div>
 
-<img src="./hd-connect.svg" width="620" alt="connect"/>
+<img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/hd-connect.svg" width="620" alt="connect"/>
 
 <div align="center">
 
@@ -67,14 +72,10 @@ interactive destination showcases, and modern frontend architecture.
 <a href="https://www.instagram.com/dev.prat1k/" target="_blank">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
 </a>
-&nbsp;&nbsp;
-<a href="mailto:prateekraiger098@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Email-prateekraiger098%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
 
 </div>
 
-<img src="./hd-extras.svg" width="620" alt="extras"/>
+<img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/hd-extras.svg" width="620" alt="extras"/>
 
 <div align="center">
 
