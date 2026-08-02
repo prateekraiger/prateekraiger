@@ -243,25 +243,29 @@ def hbar(x, y, w, h, cls="d-f", r=3.0):
 
 
 def draw_stats(s):
-    H = 148
+    rows = max(len(s["by_size"]), len(s["by_repo"]), 1)
+    H = 246 + 26 + rows * 22 + 6
     weekly = s["weekly"] or [0]
     peak = max(weekly) or 1
+
     p = [head(WIDTH, H)]
+
+    # Section 1: Hero Contributions & Sparkline
     p.append(f'<g opacity="0">{fade(0.10)}'
-             + label(0, 50, s["total"], 52, "e-f", extra=' font-weight="600"')
-             + label(0, 72, "contributions in the last year", 12) + '</g>')
+             + label(0, 44, s["total"], 52, "e-f", extra=' font-weight="600"')
+             + label(0, 66, "contributions in the last year", 12) + '</g>')
     for i, (val, lab) in enumerate([(s["active"], "active days"),
                                     (s["best_week"], "best week")]):
-        p.append(f'<g opacity="0">{fade(0.30 + i * 0.12)}'
-                 + label(WIDTH, 30 + i * 40, val, 19, "e-f", "end",
+        p.append(f'<g opacity="0">{fade(0.25 + i * 0.10)}'
+                 + label(WIDTH, 26 + i * 38, val, 19, "e-f", "end",
                          ' font-weight="600"')
-                 + label(WIDTH, 47 + i * 40, lab, 11, "m-f", "end") + '</g>')
+                 + label(WIDTH, 42 + i * 38, lab, 11, "m-f", "end") + '</g>')
 
-    base, top = H - 10, H - 58
+    base, top = 138, 88
     span = base - top
     step = WIDTH / max(len(weekly) - 1, 1)
     pts = [(i * step, base - (v / peak) * span) for i, v in enumerate(weekly)]
-    clip, cursor = wipe("rs", 0, top - 6, WIDTH, span + 8, 0.50)
+    clip, cursor = wipe("rs", 0, top - 6, WIDTH, span + 8, 0.40)
     p.append(clip)
     p.append('<g clip-path="url(#rs)">')
     p.append(f'<path d="M{pts[0][0]:.1f} {base:.1f}'
@@ -275,9 +279,67 @@ def draw_stats(s):
     p.append(cursor)
     ex, ey = pts[-1]
     p.append(f'<circle cx="{ex - 2:.1f}" cy="{ey:.1f}" r="4.5" class="e-f r" '
-             f'stroke-width="2" opacity="0">{fade(0.50 + REVEAL, 0.35)}</circle>')
+             f'stroke-width="2" opacity="0">{fade(0.40 + REVEAL, 0.35)}</circle>')
+
+    # Horizontal Divider 1
+    p.append(f'<line x1="0" y1="150" x2="{WIDTH}" y2="150" '
+             f'class="u-s" stroke-width="1" opacity="0">{fade(0.50)}</line>')
+
+    # Section 2: Streaks
+    cells = []
+    for k, lab in (("current", "current streak"), ("longest", "longest streak")):
+        r = s[k]
+        span_str = (f"{pretty(r['start'])} &#8211; {pretty(r['end'])}"
+                    if r["length"] and r["start"] and r["end"] else "&#8212;")
+        cells.append((r["length"], lab, span_str))
+
+    p.append(f'<line x1="310" y1="162" x2="310" y2="226" '
+             f'class="u-s" stroke-width="1" opacity="0">{fade(0.55)}</line>')
+    for i, (val, lab, span_str) in enumerate(cells):
+        x = 0 if i == 0 else 330
+        p.append(f'<g opacity="0">{fade(0.60 + i * 0.10)}'
+                 + label(x, 190, f"{val}", 34, "e-f", extra=' font-weight="600"')
+                 + label(x, 208, lab, 11)
+                 + label(x, 224, span_str, 10) + '</g>')
+
+    # Horizontal Divider 2
+    p.append(f'<line x1="0" y1="238" x2="{WIDTH}" y2="238" '
+             f'class="u-s" stroke-width="1" opacity="0">{fade(0.70)}</line>')
+
+    # Section 3: Languages
+    colw = (WIDTH - 30) / 2
+    name_w, bar_max = 82, colw - 82 - 40
+
+    groups = [(0, "BY BYTES", s["by_size"], True),
+              (325, "BY REPOS", s["by_repo"], False)]
+
+    for gi, (gx, title, data, as_pct) in enumerate(groups):
+        p.append(f'<g opacity="0">{fade(0.75 + gi * 0.10)}'
+                 + label(gx, 252, title, 9, "m-f",
+                         extra=' letter-spacing="1.3"') + '</g>')
+        if not data:
+            continue
+        top_val = max(v for _, v in data) or 1
+        total_val = sum(v for _, v in data) or 1
+        cid = f"rl{gi}"
+        clip, cursor = wipe(cid, gx + name_w, 258, bar_max, rows * 22,
+                             0.85 + gi * 0.10, 0.90)
+        p.append(clip)
+        for ri, (name, val) in enumerate(data):
+            y = 262 + ri * 22
+            shown = (f"{val / total_val * 100:.0f}%" if as_pct else f"{val}")
+            p.append(f'<g opacity="0">{fade(0.80 + gi * 0.08 + ri * 0.04)}'
+                     + label(gx, y + 8, name.lower()[:11], 11, "e-f")
+                     + label(gx + colw, y + 8, shown, 11, "m-f", "end")
+                     + '</g>')
+            p.append(f'<g clip-path="url(#{cid})">'
+                     + hbar(gx + name_w, y, bar_max * val / top_val, 7)
+                     + '</g>')
+        p.append(cursor)
+
     p.append("</svg>")
     return "".join(p)
+
 
 
 def draw_streak(s):

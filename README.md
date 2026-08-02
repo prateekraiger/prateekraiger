@@ -17,8 +17,6 @@
 
 <div align="center">
 
-<img src="./svg/stats.svg" width="620" alt="Contributions in the last year"/>
-
 [linkedin](https://www.linkedin.com/in/pratik-r1104/) &nbsp;·&nbsp;
 [twitter](https://x.com/mrpratik753) &nbsp;·&nbsp;
 [instagram](https://www.instagram.com/dev.prat1k/) &nbsp;·&nbsp;
@@ -60,9 +58,7 @@ Feature-packed full-stack web application with responsive UI.
 
 <div align="center">
 
-<img src="./svg/streak.svg" width="620" alt="Current and longest streak"/>
-
-<img src="./svg/langs.svg" width="620" alt="Top languages by bytes and by repo"/>
+<img src="./svg/stats.svg" width="620" alt="GitHub Stats"/>
 
 </div>
 
