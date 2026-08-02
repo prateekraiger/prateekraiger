@@ -72,10 +72,10 @@ def main():
         print("XML Error:", err)
         return
 
-    out_path = os.path.join(REPO_ROOT, "ascii.svg")
+    out_path = os.path.join(REPO_ROOT, "luffy-ascii.svg")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(svg_out)
-    print(f"Successfully generated custom ascii.svg at {out_path}! Size: {len(svg_out)} bytes")
+    print(f"Successfully generated custom luffy-ascii.svg at {out_path}! Size: {len(svg_out)} bytes")
 
 if __name__ == "__main__":
     main()
