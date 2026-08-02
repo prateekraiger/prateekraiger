@@ -1,8 +1,21 @@
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=prateekraiger.prateekraiger" />
+
+<p align="center">
+  <a href="#">
+    <img src="https://raw.githubusercontent.com/prateekraiger/Voyazo-Travel-Website/refs/heads/main/assets/img/readmebox.svg" alt="This is Pratik" />
+  </a>
+</p>
+
 <div align="center">
+  <a href="#">
+    <img 
+      src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&duration=1200&pause=2000&color=80F799&repeat=false&width=950&height=45&lines=Exploring+the+endless+possibilities+of+web+development%2C+building+solutions+that+make+an+impact." 
+      alt="Typing SVG" 
+    />
+  </a>
+</div>
 
-<img src="./luffy_PFP.jpg" width="240" alt="Pratik Raiger" style="border-radius: 50%;" />
-
-<br><br>
+<div align="center">
 
 <img src="./svg/stats.svg" width="620" alt="Contributions in the last year"/>
 
