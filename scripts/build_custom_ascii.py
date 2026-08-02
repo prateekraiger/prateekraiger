@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import base64
 import os
+import xml.etree.ElementTree as ET
 import numpy as np
 from PIL import Image, ImageEnhance
 
@@ -36,7 +37,7 @@ def main():
     width = int(COLS * CHAR_W + pad * 2)
     height = len(lines) * LINE_H + pad * 2
 
-    FAMILY = "JBMono,ui-monospace,SFMono-Regular,Menlo,Consolas,&apos;Liberation Mono&apos;,monospace"
+    FAMILY = "JBMono,ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
     FG_LIGHT = "#6e7681"
     FG_DARK = "#c9d1d9"
 
@@ -56,17 +57,25 @@ def main():
         w_px = max(len(line), 1) * CHAR_W
         safe = line.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
-        p.append(f'<clipPath id="c{i}"><rect x="{pad}" y="{y}" height="{LINE_H}" width="0"><animate attributeName="width" from="0" to="{w_px:.1f}" begin="{begin}" dur="{ROW_DELAY}s" fill="freeze"/></clipPath>')
+        p.append(f'<clipPath id="c{i}"><rect x="{pad}" y="{y}" height="{LINE_H}" width="0"><animate attributeName="width" from="0" to="{w_px:.1f}" begin="{begin}" dur="{ROW_DELAY}s" fill="freeze"/></rect></clipPath>')
         p.append(f'<g clip-path="url(#c{i})"><text xml:space="preserve" x="{pad}" y="{y + 11.2:.1f}" class="a" font-size="{FONT_SIZE}">{safe}</text></g>')
         p.append(f'<rect y="{y + 1}" width="6" height="12" class="a" opacity="0"><animate attributeName="x" from="{pad}" to="{pad + w_px:.1f}" begin="{begin}" dur="{ROW_DELAY}s" fill="freeze"/><set attributeName="opacity" to="0.8" begin="{begin}"/><set attributeName="opacity" to="0" begin="{end}"/></rect>')
 
     p.append("</svg>")
     svg_out = "".join(p)
 
+    # Validate XML before writing
+    try:
+        ET.fromstring(svg_out)
+        print("XML Validation Passed: 100% Clean Valid SVG XML!")
+    except ET.ParseError as err:
+        print("XML Error:", err)
+        return
+
     out_path = os.path.join(REPO_ROOT, "ascii.svg")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(svg_out)
-    print(f"Successfully generated custom ascii.svg with inlined font at {out_path}! Size: {len(svg_out)} bytes")
+    print(f"Successfully generated custom ascii.svg at {out_path}! Size: {len(svg_out)} bytes")
 
 if __name__ == "__main__":
     main()
