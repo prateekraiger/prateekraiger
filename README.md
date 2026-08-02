@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./luffy-ascii.svg" width="460" alt="Pratik Raiger"/>
+<img src="./svg/ascii.svg" width="460" alt="Pratik Raiger"/>
 
-<img src="./stats.svg" width="620" alt="Contributions in the last year"/>
+<img src="./svg/stats.svg" width="620" alt="Contributions in the last year"/>
 
 [linkedin](https://www.linkedin.com/in/pratik-r1104/) &nbsp;·&nbsp;
 [twitter](https://x.com/mrpratik753) &nbsp;·&nbsp;
@@ -11,7 +11,7 @@
 
 </div>
 
-<img src="./hd-about.svg" width="620" alt="about"/>
+<img src="./svg/hd-about.svg" width="620" alt="about"/>
 
 > Full-Stack & UI/UX Developer building high-performance web applications.<br>
 > Clean code, thoughtful design, and relentless iteration.
@@ -20,11 +20,11 @@ I build fast, responsive applications and explore modern web technologies.<br>
 Currently engineering full-stack applications with **TypeScript**, **Next.js**,<br>
 **React**, and scalable cloud architectures.
 
-<img src="./hd-stack.svg" width="620" alt="stack"/>
+<img src="./svg/hd-stack.svg" width="620" alt="stack"/>
 
 <samp>cpp &nbsp; java &nbsp; python &nbsp; html &nbsp; css &nbsp; tailwind &nbsp; javascript &nbsp; typescript &nbsp; react &nbsp; next.js &nbsp; express &nbsp; mongodb &nbsp; mysql &nbsp; git &nbsp; github</samp>
 
-<img src="./hd-projects.svg" width="620" alt="projects"/>
+<img src="./svg/hd-projects.svg" width="620" alt="projects"/>
 
 **[royal-plaza](https://github.com/prateekraiger/royal-plaza)** &nbsp;·&nbsp; <samp>typescript, react</samp><br>
 Don't just visit. Dwell. Modern hospitality & luxury reservation web application.
@@ -41,17 +41,17 @@ Instant resume & CV generator tool tailored for software engineers.
 **[Riya](https://github.com/prateekraiger/Riya)** &nbsp;·&nbsp; <samp>typescript</samp><br>
 Feature-packed full-stack web application with responsive UI.
 
-<img src="./hd-stats.svg" width="620" alt="stats"/>
+<img src="./svg/hd-stats.svg" width="620" alt="stats"/>
 
 <div align="center">
 
-<img src="./streak.svg" width="620" alt="Current and longest streak"/>
+<img src="./svg/streak.svg" width="620" alt="Current and longest streak"/>
 
-<img src="./langs.svg" width="620" alt="Top languages by bytes and by repo"/>
+<img src="./svg/langs.svg" width="620" alt="Top languages by bytes and by repo"/>
 
 </div>
 
-<img src="./hd-connect.svg" width="620" alt="connect"/>
+<img src="./svg/hd-connect.svg" width="620" alt="connect"/>
 
 <div align="center">
 
@@ -73,7 +73,7 @@ Feature-packed full-stack web application with responsive UI.
 
 </div>
 
-<img src="./hd-extras.svg" width="620" alt="extras"/>
+<img src="./svg/hd-extras.svg" width="620" alt="extras"/>
 
 <div align="center">
 

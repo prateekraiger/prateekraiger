@@ -7,10 +7,18 @@ from PIL import Image, ImageEnhance
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(HERE)
-IMG_PATH = r"C:\Users\Prateek Raiger\.gemini\antigravity-ide\brain\77e72203-1a73-4cc2-85ae-4acc27331651\media__1785657612538.png"
+SVG_DIR = os.path.join(REPO_ROOT, "svg")
+IMG_PATH = os.path.join(REPO_ROOT, "luffy_PFP.jpg")
 FONT_PATH = os.path.join(HERE, "fonts", "jbmono-ramp.woff2")
 
 def main():
+    if not os.path.exists(SVG_DIR):
+        os.makedirs(SVG_DIR)
+
+    if not os.path.exists(IMG_PATH):
+        print(f"Error: {IMG_PATH} not found!")
+        return
+
     img = Image.open(IMG_PATH).convert("L")
     img = ImageEnhance.Contrast(img).enhance(1.6)
 
@@ -72,10 +80,10 @@ def main():
         print("XML Error:", err)
         return
 
-    out_path = os.path.join(REPO_ROOT, "luffy-ascii.svg")
+    out_path = os.path.join(SVG_DIR, "ascii.svg")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(svg_out)
-    print(f"Successfully generated custom luffy-ascii.svg at {out_path}! Size: {len(svg_out)} bytes")
+    print(f"Successfully generated custom ascii.svg from luffy_PFP.jpg at {out_path}! Size: {len(svg_out)} bytes")
 
 if __name__ == "__main__":
     main()

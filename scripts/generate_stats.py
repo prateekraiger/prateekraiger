@@ -13,7 +13,7 @@ Outputs, all sharing one visual language:
 Env:
   GITHUB_TOKEN  required for live data (falls back to initial sample if absent)
   GH_LOGIN      user to summarise (default: prateekraiger)
-  OUT_DIR       where to write (default: repository root)
+  OUT_DIR       where to write (default: svg directory)
 """
 import base64
 import functools
@@ -322,7 +322,7 @@ def draw_langs(s):
         total = sum(v for _, v in data) or 1
         cid = f"rl{gi}"
         clip, cursor = wipe(cid, gx + name_w, 20, bar_max, rows * 22,
-                            0.34 + gi * 0.12, 0.95)
+                             0.34 + gi * 0.12, 0.95)
         p.append(clip)
         for ri, (name, val) in enumerate(data):
             y = 26 + ri * 22
@@ -434,7 +434,12 @@ def write(path, svg):
 def main():
     token = os.environ.get("GITHUB_TOKEN")
     login = os.environ.get("GH_LOGIN", "prateekraiger")
-    out_dir = os.environ.get("OUT_DIR", ".")
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    default_out = os.path.join(repo_root, "svg")
+    out_dir = os.environ.get("OUT_DIR", default_out)
+
+    if not os.path.exists(out_dir):
+        os.makedirs(out_dir)
 
     heading_words = ("about", "stack", "projects", "stats", "connect", "extras", "about this page")
     hd_changed = []
