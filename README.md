@@ -49,8 +49,6 @@ Feature-packed full-stack web application with responsive UI.
 
 <img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/langs.svg" width="620" alt="Top languages by bytes and by repo"/>
 
-<img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/year.svg" width="620" alt="The last year, one character per day"/>
-
 </div>
 
 <img src="https://raw.githubusercontent.com/prateekraiger/prateekraiger/main/hd-connect.svg" width="620" alt="connect"/>

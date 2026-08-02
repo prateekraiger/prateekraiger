@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import base64
 import os
 import numpy as np
 from PIL import Image, ImageEnhance
@@ -6,6 +7,7 @@ from PIL import Image, ImageEnhance
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(HERE)
 IMG_PATH = r"C:\Users\Prateek Raiger\.gemini\antigravity-ide\brain\77e72203-1a73-4cc2-85ae-4acc27331651\media__1785657612538.png"
+FONT_PATH = os.path.join(HERE, "fonts", "jbmono-ramp.woff2")
 
 def main():
     img = Image.open(IMG_PATH).convert("L")
@@ -38,8 +40,14 @@ def main():
     FG_LIGHT = "#6e7681"
     FG_DARK = "#c9d1d9"
 
+    with open(FONT_PATH, "rb") as f:
+        b64 = base64.b64encode(f.read()).decode("ascii")
+    
+    font_face = (f"@font-face{{font-family:JBMono;font-style:normal;font-weight:400;font-display:block;"
+                 f"src:url(data:font/woff2;base64,{b64}) format('woff2')}}")
+
     p = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" font-family="{FAMILY}">',
-         f'<style>.a{{fill:{FG_LIGHT}}}@media(prefers-color-scheme:dark){{.a{{fill:{FG_DARK}}}}}</style>']
+         f'<style>{font_face}.a{{fill:{FG_LIGHT}}}@media(prefers-color-scheme:dark){{.a{{fill:{FG_DARK}}}}}</style>']
 
     for i, line in enumerate(lines):
         y = pad + i * LINE_H
@@ -58,7 +66,7 @@ def main():
     out_path = os.path.join(REPO_ROOT, "ascii.svg")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(svg_out)
-    print(f"Generated custom ascii.svg at {out_path} from user avatar!")
+    print(f"Successfully generated custom ascii.svg with inlined font at {out_path}! Size: {len(svg_out)} bytes")
 
 if __name__ == "__main__":
     main()
