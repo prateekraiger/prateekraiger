@@ -58,7 +58,11 @@ Feature-packed full-stack web application with responsive UI.
 
 <div align="center">
 
-<img src="./svg/stats.svg" width="620" alt="GitHub Stats"/>
+<img src="./svg/stats.svg" width="620" alt="GitHub Stats & Activity Graph"/>
+
+<br><br>
+
+<img src="./svg/year.svg" width="620" alt="Commit Activity Heatmap"/>
 
 </div>
 

@@ -244,45 +244,87 @@ def hbar(x, y, w, h, cls="d-f", r=3.0):
 
 def draw_stats(s):
     rows = max(len(s["by_size"]), len(s["by_repo"]), 1)
-    H = 246 + 26 + rows * 22 + 6
+    H = 430
     weekly = s["weekly"] or [0]
     peak = max(weekly) or 1
+    weeks = s["weeks"]
 
     p = [head(WIDTH, H)]
 
-    # Section 1: Hero Contributions & Sparkline
-    p.append(f'<g opacity="0">{fade(0.10)}'
-             + label(0, 44, s["total"], 52, "e-f", extra=' font-weight="600"')
-             + label(0, 66, "contributions in the last year", 12) + '</g>')
-    for i, (val, lab) in enumerate([(s["active"], "active days"),
-                                    (s["best_week"], "best week")]):
-        p.append(f'<g opacity="0">{fade(0.25 + i * 0.10)}'
-                 + label(WIDTH, 26 + i * 38, val, 19, "e-f", "end",
-                         ' font-weight="600"')
-                 + label(WIDTH, 42 + i * 38, lab, 11, "m-f", "end") + '</g>')
+    # Gradient defs for activity chart
+    p.append('<defs>'
+             '<linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">'
+             '<stop offset="0%" stop-color="#39d353" stop-opacity="0.35"/>'
+             '<stop offset="100%" stop-color="#39d353" stop-opacity="0.0"/>'
+             '</linearGradient>'
+             '<linearGradient id="areaGradDark" x1="0" y1="0" x2="0" y2="1">'
+             '<stop offset="0%" stop-color="#80F799" stop-opacity="0.30"/>'
+             '<stop offset="100%" stop-color="#80F799" stop-opacity="0.0"/>'
+             '</linearGradient>'
+             '</defs>')
 
-    base, top = 138, 88
-    span = base - top
-    step = WIDTH / max(len(weekly) - 1, 1)
-    pts = [(i * step, base - (v / peak) * span) for i, v in enumerate(weekly)]
-    clip, cursor = wipe("rs", 0, top - 6, WIDTH, span + 8, 0.40)
+    # Section 1: Hero Contributions Header
+    p.append(f'<g opacity="0">{fade(0.10)}'
+             + label(0, 36, s["total"], 46, "e-f", extra=' font-weight="600"')
+             + label(0, 56, "contributions in the last year", 11) + '</g>')
+
+    for i, (val, lab) in enumerate([(s["active"], "active days"),
+                                    (s["best_week"], "best week peak")]):
+        p.append(f'<g opacity="0">{fade(0.25 + i * 0.10)}'
+                 + label(WIDTH, 26 + i * 32, val, 17, "e-f", "end",
+                         ' font-weight="600"')
+                 + label(WIDTH, 38 + i * 32, lab, 10, "m-f", "end") + '</g>')
+
+    # Activity Curve Graph
+    base_y, top_y = 195, 80
+    span_y = base_y - top_y
+    chart_x_left, chart_w = 32, WIDTH - 40
+    step_x = chart_w / max(len(weekly) - 1, 1)
+
+    pts = [(chart_x_left + i * step_x, base_y - (v / peak) * span_y) for i, v in enumerate(weekly)]
+
+    # Y-axis Scale Gridlines & Labels
+    grid_steps = 3
+    for gi in range(grid_steps + 1):
+        gy = base_y - gi * (span_y / grid_steps)
+        gval = int(round(gi * (peak / grid_steps)))
+        p.append(f'<line x1="{chart_x_left}" y1="{gy:.1f}" x2="{WIDTH}" y2="{gy:.1f}" '
+                 f'class="u-s" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>')
+        p.append(label(chart_x_left - 6, gy + 3, str(gval), 9, "m-f", "end"))
+
+    # X-axis Month Labels
+    last_m, last_x = None, -999.0
+    for i, w in enumerate(weeks):
+        if w:
+            m = int(w[0]["date"][5:7])
+            x = chart_x_left + i * step_x
+            if m != last_m and x - last_x >= 32 and x < WIDTH - 20:
+                p.append(label(x, base_y + 14, MON[m - 1], 9, "m-f", "center"))
+                last_x = x
+            last_m = m
+
+    clip, cursor = wipe("rs", chart_x_left, top_y - 6, chart_w + 10, span_y + 12, 0.40)
     p.append(clip)
     p.append('<g clip-path="url(#rs)">')
-    p.append(f'<path d="M{pts[0][0]:.1f} {base:.1f}'
+    # Gradient Area fill
+    p.append(f'<path d="M{pts[0][0]:.1f} {base_y:.1f}'
              + "".join(f'L{x:.1f} {y:.1f}' for x, y in pts)
-             + f'L{pts[-1][0]:.1f} {base:.1f}Z" class="w"/>')
+             + f'L{pts[-1][0]:.1f} {base_y:.1f}Z" fill="url(#areaGrad)" class="w"/>')
+    # Crisp Stroke Line
     p.append(f'<path d="M{pts[0][0]:.1f} {pts[0][1]:.1f}'
              + "".join(f'L{x:.1f} {y:.1f}' for x, y in pts[1:])
-             + f'" class="d-s" stroke-width="2" stroke-linejoin="round" '
-             f'stroke-linecap="round"/>')
+             + f'" class="d-s" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>')
     p.append("</g>")
     p.append(cursor)
-    ex, ey = pts[-1]
-    p.append(f'<circle cx="{ex - 2:.1f}" cy="{ey:.1f}" r="4.5" class="e-f r" '
+
+    # Highlight Peak Point
+    peak_idx = weekly.index(peak) if peak in weekly else 0
+    px, py = pts[peak_idx]
+    p.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="4" class="e-f r" '
              f'stroke-width="2" opacity="0">{fade(0.40 + REVEAL, 0.35)}</circle>')
 
     # Horizontal Divider 1
-    p.append(f'<line x1="0" y1="150" x2="{WIDTH}" y2="150" '
+    p.append(f'<line x1="0" y1="225" x2="{WIDTH}" y2="225" '
              f'class="u-s" stroke-width="1" opacity="0">{fade(0.50)}</line>')
 
     # Section 2: Streaks
@@ -293,20 +335,20 @@ def draw_stats(s):
                     if r["length"] and r["start"] and r["end"] else "&#8212;")
         cells.append((r["length"], lab, span_str))
 
-    p.append(f'<line x1="310" y1="162" x2="310" y2="226" '
+    p.append(f'<line x1="310" y1="235" x2="310" y2="305" '
              f'class="u-s" stroke-width="1" opacity="0">{fade(0.55)}</line>')
     for i, (val, lab, span_str) in enumerate(cells):
         x = 0 if i == 0 else 330
         p.append(f'<g opacity="0">{fade(0.60 + i * 0.10)}'
-                 + label(x, 190, f"{val}", 34, "e-f", extra=' font-weight="600"')
-                 + label(x, 208, lab, 11)
-                 + label(x, 224, span_str, 10) + '</g>')
+                 + label(x, 264, f"{val} days", 26, "e-f", extra=' font-weight="600"')
+                 + label(x, 280, lab, 10, "m-f")
+                 + label(x, 294, span_str, 9, "m-f") + '</g>')
 
     # Horizontal Divider 2
-    p.append(f'<line x1="0" y1="238" x2="{WIDTH}" y2="238" '
+    p.append(f'<line x1="0" y1="315" x2="{WIDTH}" y2="315" '
              f'class="u-s" stroke-width="1" opacity="0">{fade(0.70)}</line>')
 
-    # Section 3: Languages
+    # Section 3: Languages Breakdown
     colw = (WIDTH - 30) / 2
     name_w, bar_max = 82, colw - 82 - 40
 
@@ -315,31 +357,30 @@ def draw_stats(s):
 
     for gi, (gx, title, data, as_pct) in enumerate(groups):
         p.append(f'<g opacity="0">{fade(0.75 + gi * 0.10)}'
-                 + label(gx, 252, title, 9, "m-f",
+                 + label(gx, 332, title, 9, "m-f",
                          extra=' letter-spacing="1.3"') + '</g>')
         if not data:
             continue
         top_val = max(v for _, v in data) or 1
         total_val = sum(v for _, v in data) or 1
         cid = f"rl{gi}"
-        clip, cursor = wipe(cid, gx + name_w, 258, bar_max, rows * 22,
+        clip, cursor = wipe(cid, gx + name_w, 338, bar_max, rows * 18,
                              0.85 + gi * 0.10, 0.90)
         p.append(clip)
         for ri, (name, val) in enumerate(data):
-            y = 262 + ri * 22
+            y = 340 + ri * 17
             shown = (f"{val / total_val * 100:.0f}%" if as_pct else f"{val}")
             p.append(f'<g opacity="0">{fade(0.80 + gi * 0.08 + ri * 0.04)}'
-                     + label(gx, y + 8, name.lower()[:11], 11, "e-f")
-                     + label(gx + colw, y + 8, shown, 11, "m-f", "end")
+                     + label(gx, y + 7, name.lower()[:11], 10, "e-f")
+                     + label(gx + colw, y + 7, shown, 10, "m-f", "end")
                      + '</g>')
             p.append(f'<g clip-path="url(#{cid})">'
-                     + hbar(gx + name_w, y, bar_max * val / top_val, 7)
+                     + hbar(gx + name_w, y, bar_max * val / top_val, 6)
                      + '</g>')
         p.append(cursor)
 
     p.append("</svg>")
     return "".join(p)
-
 
 
 def draw_streak(s):
@@ -414,71 +455,80 @@ def draw_heading(word):
 
 
 def draw_year(s):
-    FS, LH, COLW = 9.2, 11.0, 2
-    CW = FS * 0.6
-    pad_l, pad_t = LEFT, 44
+    cell_sz, gap = 9, 2.5
+    step = cell_sz + gap
+    pad_l, pad_t = LEFT + 5, 38
     weeks = s["weeks"]
-    H = int(pad_t + 7 * LH + 26)
+    H = int(pad_t + 7 * step + 22)
 
-    def level(v):
-        for i, cut in enumerate((0, 2, 5, 9)):
-            if v <= cut:
-                return i
-        return 4
+    # Color Levels for GitHub Contribution Matrix
+    # 0: empty, 1: 1-2, 2: 3-5, 3: 6-9, 4: 10+
+    def color_class(v):
+        if v == 0:
+            return "c0"
+        elif v <= 2:
+            return "c1"
+        elif v <= 5:
+            return "c2"
+        elif v <= 9:
+            return "c3"
+        return "c4"
 
-    p = [head(WIDTH, H)]
+    # Style override for contribution grid cells in light and dark mode
+    extra_style = (
+        ".c0{fill:#ebedf0}.c1{fill:#9be9a8}.c2{fill:#40c463}.c3{fill:#30a14e}.c4{fill:#216e39}"
+        "@media(prefers-color-scheme:dark){"
+        ".c0{fill:#161b22}.c1{fill:#0e4429}.c2{fill:#006d32}.c3{fill:#26a641}.c4{fill:#39d353}}"
+    )
+
+    p = [head(WIDTH, H, font=font_text())]
+    p.append(f"<style>{extra_style}</style>")
+
     p.append(f'<g opacity="0">{fade(0.10)}'
-             + label(pad_l, 16, "THE YEAR", 9, "m-f",
+             + label(pad_l, 16, "COMMIT ACTIVITY HEATMAP", 9, "m-f",
                      extra=' letter-spacing="1.3"')
-             + label(pad_l, 32, f"{s['active']} of "
-                     f"{sum(len(w) for w in weeks)} days had a contribution", 11)
+             + label(pad_l, 28, f"{s['total']} contributions in {len(weeks)} weeks", 10, "e-f")
              + '</g>')
 
-    lx = WIDTH - 6
-    p.append(f'<g opacity="0">{fade(1.30)}'
-             + label(lx - 78, 32, "less", 9, "m-f", "end")
-             + f'<text xml:space="preserve" x="{lx - 72}" y="32" class="d-f" '
-             f'font-size="{FS}">{" ".join(RAMP[1:])}</text>'
-             + label(lx, 32, "more", 9, "m-f", "end") + '</g>')
+    # Legend at top right
+    lx = WIDTH - 10
+    p.append(f'<g opacity="0">{fade(0.20)}'
+             + label(lx - 85, 20, "Less", 8, "m-f", "end")
+             + "".join(f'<rect x="{lx - 55 + i * 11}" y="12" width="8" height="8" rx="1.5" class="c{i}"/>' for i in range(5))
+             + label(lx, 20, "More", 8, "m-f", "end")
+             + '</g>')
 
-    for r in range(7):
-        chars = []
-        for w in weeks:
-            day = next((d for d in w if d.get("weekday") == r), None)
-            v = day["contributionCount"] if day else 0
-            chars.append(RAMP[level(v)] * COLW)
-        line = "".join(chars).rstrip()
-        if not line:
-            continue
-        y = pad_t + r * LH
-        w_px = max(len(line), 1) * CW
-        cid = f"ry{r}"
-        delay = 0.30 + r * 0.07
-        p.append(f'<clipPath id="{cid}"><rect x="{pad_l}" y="{y}" '
-                 f'height="{LH}" width="0"><animate attributeName="width" '
-                 f'from="0" to="{w_px:.1f}" begin="{delay:.2f}s" dur="0.40s" '
-                 f'fill="freeze"/></rect></clipPath>')
-        safe = line.replace("&", "&amp;").replace("<", "&lt;")
-        p.append(f'<g clip-path="url(#{cid})"><text xml:space="preserve" '
-                 f'x="{pad_l}" y="{y + FS - 0.6:.1f}" class="d-f" '
-                 f'font-size="{FS}">{safe}</text></g>')
+    # Day labels on left
+    for r, lab in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
+        p.append(label(pad_l - 6, pad_t + r * step + cell_sz - 1, lab, 8, "m-f", "end"))
 
-    for r, lab in ((1, "mon"), (3, "wed"), (5, "fri")):
-        p.append(label(pad_l - 7, pad_t + r * LH + FS - 0.6, lab, 9, "m-f",
-                       "end"))
-
+    # Month labels on top
     last_m, last_x = None, -999.0
-    base_y = pad_t + 7 * LH + 13
     for i, w in enumerate(weeks):
-        m = int(w[0]["date"][5:7])
-        x = pad_l + i * COLW * CW
-        if m != last_m and i < len(weeks) - 1 and x - last_x >= 34:
-            p.append(label(x, base_y, MON[m - 1], 9, "m-f"))
-            last_x = x
-        last_m = m
+        if w:
+            m = int(w[0]["date"][5:7])
+            x = pad_l + i * step
+            if m != last_m and i < len(weeks) - 1 and x - last_x >= 28:
+                p.append(label(x, pad_t - 6, MON[m - 1], 8, "m-f"))
+                last_x = x
+            last_m = m
+
+    # Render Grid Tiles (Weeks x Days)
+    for wi, w in enumerate(weeks):
+        x = pad_l + wi * step
+        delay = 0.25 + (wi / len(weeks)) * 0.6
+        p.append(f'<g opacity="0">{fade(delay, 0.3)}')
+        for day in w:
+            r = day["weekday"]
+            v = day["contributionCount"]
+            y = pad_t + r * step
+            cls = color_class(v)
+            p.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{cell_sz}" height="{cell_sz}" rx="2" class="{cls}"/>')
+        p.append('</g>')
 
     p.append("</svg>")
     return "".join(p)
+
 
 
 def write(path, svg):
