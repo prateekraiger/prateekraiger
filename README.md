@@ -77,7 +77,6 @@ Feature-packed full-stack web application with responsive UI.
 
 <br><br>
 
-<img src="./svg/year.svg" width="620" alt="Commit Activity Heatmap"/>
 
 </div>
 
